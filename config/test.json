@@ -1,0 +1,19 @@
+{
+  "image_path": "../data/image/raw/white488_20X_S1_C2_0.tiff",
+  "save_path": "../data",
+  "crop_H": 10005,
+  "crop_W": 14025,
+  "start_H": 1500,
+  "start_W": 1500,
+  "block_H": 12,
+  "block_W": 20,
+
+  "step": 3000,
+  "max_threshold_rate": 0.5,
+  "min_threshold_rate": 0.25,
+  "step_threshold_rate": 0.025,
+  "half_size": 30,
+  "min_centroids_number": 8,
+  "min_point_distance": 14,
+  "near_points_range": 2
+}

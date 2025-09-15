@@ -11,12 +11,12 @@ We recommend the following configurations:
 This repository is tested on a NVIDIA Geforce RTX 3080 (10GB RAM) and 256GB RAM.
 
 ## Environment
-There is no restriction on operation systems or specific python versions (as long as they are supported by Pytorch). This repository is tested on Python 3.8 with CUDA 11.5 and Ubuntu 16.04.This repository is tested on Python 3.8 with CUDA 11.5 and Ubuntu 16.04.
+There is no restriction on operation systems or specific python versions (as long as they are supported by Pytorch). This repository is tested on Python 3.12.
 
 ## Installation
 Clone this repository and install all dependencies as follow:
 ```shell
-pip install -r requirements.txt
+conda env create -f environment.yml
 ``````
 
 It is worthing noting that the PyTorch installed by pip should be manually checked. The PyTorch package is expected to be supported by your CUDA installation in this repository. For more information about compabilities between PyTorch and CUDA, please check [INSTALLING PREVIOUS VERSIONS OF PYTORCH](https://pytorch.org/get-started/previous-versions/).

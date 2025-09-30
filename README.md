@@ -22,9 +22,8 @@ conda env create -f environment.yml
 It is worthing noting that the PyTorch installed by pip should be manually checked. The PyTorch package is expected to be supported by your CUDA installation in this repository. For more information about compabilities between PyTorch and CUDA, please check [INSTALLING PREVIOUS VERSIONS OF PYTORCH](https://pytorch.org/get-started/previous-versions/).
 
 # Demo
-## Training LF-denoising
 
-We provide a demo training dataset, which contains a LF image. You can train the demo model by following steps:
+We provide a demo, which contains a LF image. You can train the demo model by following steps:
 
 1. Download the dataset ([here]((https://drive.google.com/file/d/1ne0n3dMt27MbaHA13hNRaxn3guLNyVSl/view?usp=sharing))). Place all the TIFF file in `example` to `./data/image/raw`.
 2. To start your training process, run

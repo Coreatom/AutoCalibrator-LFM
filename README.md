@@ -25,7 +25,7 @@ It is worthing noting that the PyTorch installed by pip should be manually check
 
 We provide a demo, which contains a LF image. You can train the demo model by following steps:
 
-1. Download the dataset ([here]((https://drive.google.com/file/d/1ne0n3dMt27MbaHA13hNRaxn3guLNyVSl/view?usp=sharing))). Place all the TIFF file in `example` to `./data/image/raw`.
+1. Download the dataset ([here](https://drive.google.com/file/d/1ne0n3dMt27MbaHA13hNRaxn3guLNyVSl/view?usp=sharing)). Place all the TIFF file in `example` to `./data/image/raw`.
 2. To start your training process, run
 ```bash
 cd code
